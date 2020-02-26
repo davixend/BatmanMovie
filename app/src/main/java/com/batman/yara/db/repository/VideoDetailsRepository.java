@@ -1,9 +1,13 @@
-package com.batman.yara.db;
+package com.batman.yara.db.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
+
+import com.batman.yara.db.VideoRoomDatabase;
+import com.batman.yara.db.dao.VideosDetailsDao;
+import com.batman.yara.db.model.ModelVideoDetailsDB;
 
 public class VideoDetailsRepository implements VideosDetailsDao {
     private VideosDetailsDao videosDetailsDao;

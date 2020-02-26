@@ -1,4 +1,4 @@
-package com.batman.yara.db;
+package com.batman.yara.db.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

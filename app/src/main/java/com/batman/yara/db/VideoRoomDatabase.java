@@ -10,6 +10,13 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
+import com.batman.yara.db.dao.RatingDao;
+import com.batman.yara.db.dao.VideosDao;
+import com.batman.yara.db.dao.VideosDetailsDao;
+import com.batman.yara.db.model.ModelRatingDB;
+import com.batman.yara.db.model.ModelVideoDB;
+import com.batman.yara.db.model.ModelVideoDetailsDB;
+
 @Database(entities = {ModelVideoDB.class, ModelVideoDetailsDB.class, ModelRatingDB.class}, version = 4)
 public abstract class VideoRoomDatabase extends RoomDatabase {
 

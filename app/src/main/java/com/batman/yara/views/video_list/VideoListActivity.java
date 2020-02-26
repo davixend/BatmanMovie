@@ -15,8 +15,8 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.batman.yara.R;
 import com.batman.yara.adapters.VideosAdapter;
-import com.batman.yara.db.ModelVideoDB;
-import com.batman.yara.db.VideoViewModel;
+import com.batman.yara.db.model.ModelVideoDB;
+import com.batman.yara.db.view_model.VideoViewModel;
 import com.batman.yara.models.VideoModel;
 import com.batman.yara.utils.AppDialog;
 import com.batman.yara.utils.Utils;

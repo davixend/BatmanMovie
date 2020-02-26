@@ -11,10 +11,10 @@ import androidx.core.widget.NestedScrollView;
 import androidx.lifecycle.Observer;
 
 import com.batman.yara.R;
-import com.batman.yara.db.ModelRatingDB;
-import com.batman.yara.db.ModelVideoDetailsDB;
-import com.batman.yara.db.RatingViewModel;
-import com.batman.yara.db.VideoDetailsViewModel;
+import com.batman.yara.db.model.ModelRatingDB;
+import com.batman.yara.db.model.ModelVideoDetailsDB;
+import com.batman.yara.db.view_model.RatingViewModel;
+import com.batman.yara.db.view_model.VideoDetailsViewModel;
 import com.batman.yara.models.DetailsVideoModel;
 import com.batman.yara.utils.AppDialog;
 import com.batman.yara.utils.Utils;

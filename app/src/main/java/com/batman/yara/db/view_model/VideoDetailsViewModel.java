@@ -1,4 +1,4 @@
-package com.batman.yara.db;
+package com.batman.yara.db.view_model;
 
 import android.app.Application;
 
@@ -6,7 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import java.util.List;
+import com.batman.yara.db.dao.VideosDetailsDao;
+import com.batman.yara.db.model.ModelVideoDetailsDB;
+import com.batman.yara.db.repository.VideoDetailsRepository;
 
 public class VideoDetailsViewModel extends AndroidViewModel implements VideosDetailsDao {
     private VideoDetailsRepository repository;

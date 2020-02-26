@@ -1,10 +1,13 @@
-package com.batman.yara.db;
+package com.batman.yara.db.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import androidx.lifecycle.LiveData;
+
+import com.batman.yara.db.VideoRoomDatabase;
+import com.batman.yara.db.dao.VideosDao;
+import com.batman.yara.db.model.ModelVideoDB;
 
 import java.util.List;
 

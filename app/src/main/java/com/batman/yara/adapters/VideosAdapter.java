@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.batman.yara.R;
-import com.batman.yara.db.ModelVideoDB;
+import com.batman.yara.db.model.ModelVideoDB;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 

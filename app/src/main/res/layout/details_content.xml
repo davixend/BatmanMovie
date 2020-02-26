@@ -27,21 +27,22 @@
 
         <TextView
             android:id="@+id/year"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_year"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_year" />
 
         <TextView
             android:id="@+id/name_rate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
-            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
             android:text="imdbRating: "
             android:textColor="@color/white"
             android:textSize="15sp"
@@ -51,22 +52,23 @@
 
         <TextView
             android:id="@+id/rate"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:visibility="gone"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_rate"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_rate" />
 
         <TextView
             android:id="@+id/name_rate1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
             android:paddingTop="5dp"
             android:paddingRight="10dp"
-            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
             android:text="Rotten Tomatoes: "
             android:textColor="@color/white"
             android:textSize="15sp"
@@ -76,22 +78,23 @@
 
         <TextView
             android:id="@+id/rate1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:visibility="gone"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_rate1"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_rate1" />
 
         <TextView
             android:id="@+id/name_rate2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
             android:paddingTop="5dp"
             android:paddingRight="10dp"
-            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
             android:text="Metacritic: "
             android:textColor="@color/white"
             android:textSize="15sp"
@@ -101,12 +104,13 @@
 
         <TextView
             android:id="@+id/rate2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:visibility="gone"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_rate2"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_rate2" />
 
         <TextView
@@ -122,11 +126,12 @@
 
         <TextView
             android:id="@+id/released"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_released"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_released" />
 
         <TextView
@@ -142,11 +147,12 @@
 
         <TextView
             android:id="@+id/runtime"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_runtime"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_runtime" />
 
         <TextView
@@ -162,11 +168,12 @@
 
         <TextView
             android:id="@+id/genre"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_genre"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_genre" />
 
         <TextView
@@ -182,11 +189,12 @@
 
         <TextView
             android:id="@+id/director"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="15sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_director"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_director" />
 
         <TextView
@@ -202,11 +210,13 @@
 
         <TextView
             android:id="@+id/actors"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:paddingRight="5dp"
             android:textColor="@color/white"
             android:textSize="15sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_actors"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/name_actors" />
 
         <TextView
@@ -216,17 +226,18 @@
             android:animateLayoutChanges="true"
             android:padding="10dp"
             android:text="more details"
-            android:textColor="@color/blue"
+            android:textColor="@color/green"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/actors" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/more_item_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true"
             android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/more_item">
 
@@ -243,11 +254,12 @@
 
             <TextView
                 android:id="@+id/plot"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_plot"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_plot" />
 
             <TextView
@@ -263,11 +275,12 @@
 
             <TextView
                 android:id="@+id/writer"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_writer"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_writer" />
 
             <TextView
@@ -283,11 +296,12 @@
 
             <TextView
                 android:id="@+id/language"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_language"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_language" />
 
             <TextView
@@ -303,11 +317,12 @@
 
             <TextView
                 android:id="@+id/country"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_country"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_country" />
 
             <TextView
@@ -323,11 +338,12 @@
 
             <TextView
                 android:id="@+id/awards"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_awards"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_awards" />
 
             <TextView
@@ -343,11 +359,12 @@
 
             <TextView
                 android:id="@+id/production"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_production"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_production" />
 
             <TextView
@@ -363,11 +380,12 @@
 
             <TextView
                 android:id="@+id/website"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/name_website"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/name_website" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
